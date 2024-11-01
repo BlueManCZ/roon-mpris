@@ -1,6 +1,6 @@
 {
   "name": "roon-mpris",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Roon extension to bind to the Ubuntu DBUS interface for media players.  Allows Media buttons to work.",
   "main": "index.js",
   "bin": {
@@ -17,9 +17,13 @@
   "license": "apache-2.0",
   "dependencies": {
     "mpris-service": "^2.1.0",
+    "node-notifier": "^10.0.1",
     "node-roon-api": "github:roonlabs/node-roon-api",
     "node-roon-api-settings": "github:roonlabs/node-roon-api-settings",
     "node-roon-api-transport": "github:roonlabs/node-roon-api-transport",
     "yargs": "^16.2.0"
-  }
+  },
+    "devDependencies": {
+      "prettier": "^3.3.3"
+    }
 }
